@@ -12,25 +12,28 @@ function displayTime() {
 }
 
 //get the current hour and stored in a new varible 
-var currentHour = dayjs().format('h'); 
+var currentHour = dayjs().format('HH'); 
+
 
 $('.hour-box').each(function() {
   var hourBox = $(this); 
 
+  //here we are getting the id attribute from the element hourBox 
   var boxId = parseInt(hourBox.attr('id'));
+  //console.log("The value of box ID is: " + boxId); 
+  
+  //with this conditonal stament it will aplly the correct class daccording to 
+  //the moment of the day 
 
-  //console.log(boxId); 
+  if (boxId < currentHour) {
+    $('.hour-box').addClass("past")
+  } else if (boxId > currentHour) {
+    $('.hour-box').addClass("future"); 
+  } else {
+    $('.hour-box').addClass("present"); 
+  }
 
-
-
-})
-
-
-
-
-
-
-
+}); 
 
 
 
@@ -43,11 +46,7 @@ $(function () {
     // time-block containing the button that was clicked? How might the id be
     // useful when saving the description in local storage?
     //
-    // TODO: Add code to apply the past, present, or future class to each time
-    // block by comparing the id to the current hour. HINTS: How can the id
-    // attribute of each time-block be used to conditionally add or remove the
-    // past, present, and future classes? How can Day.js be used to get the
-    // current hour in 24-hour time?
+  
     //
     // TODO: Add code to get any user input that was saved in localStorage and set
     // the values of the corresponding textarea elements. HINT: How can the id
@@ -60,6 +59,3 @@ $(function () {
 
   displayTime(); 
 
-
-
-  
