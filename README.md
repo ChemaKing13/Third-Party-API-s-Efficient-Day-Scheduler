@@ -18,6 +18,7 @@ In order to complete this challenge, I applied the knowledge seen in class, as w
 
 
 <h2>Live URL</h2>
+https://chemaking13.github.io/Third-Party-API-s-Efficient-Day-Scheduler/
 
 
 
