@@ -3,7 +3,7 @@
  
 <h2>Description</h2>
 
-In a busy woWith work day scheduler busy users can have a better time managment.
+Today more than ever it is important to have a good management of our time. With this day scheduler, users will be able to establish the activities they will carry out throughout their labor days, defined by hours.
 
 <h2>Built With</h2> 
 
