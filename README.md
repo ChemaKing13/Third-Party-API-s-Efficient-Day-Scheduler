@@ -3,8 +3,7 @@
  
 <h2>Description</h2>
 
-With this quiz users can test their basic knowledge of some of the main code languages, such as CSS, HTML and JS. 
- With this work day scheduler users can have better time management of their days. The use of this program is really easy, users only have to type the activitie they want to remember at the time they need, then click on the save icon, and thats it, their input will remain there.
+In a busy woWith work day scheduler busy users can have a better time managment.
 
 <h2>Built With</h2> 
 
